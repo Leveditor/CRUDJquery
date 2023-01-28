@@ -1,0 +1,32 @@
+.form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form div input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.form div input::placeholder {
+    font-size: 16px;
+}
+
+.form div button {
+    background-color: #958585;
+    color: #FFF;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 3px;
+}
+
+.form div button:hover {
+    cursor: pointer;
+    background-color: #6C6161;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
